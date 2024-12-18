@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Ovo&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+/* Light mode styles */
+body {
+  background-color: white;
+  color: black;
+}
+
+/* Dark mode styles */
+html.dark body {
+  background-color: #121212; /* Dark background for dark mode */
+  color: white; /* Light text for dark mode */
+}
+
+/* Additional dark mode styles for other elements */
+html.dark .navbar, html.dark .footer {
+  background-color: #333; /* Dark background for navbar/footer */
+}
+
