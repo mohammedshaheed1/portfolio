@@ -8,13 +8,13 @@ import Contact from './Pages/Contact'
 
 const App = () => {
   return (
-    <Router basename="/portfolio/">  {/* Set the base URL for your app */}
+    <Router basename="/portfolio/"> {/* Set the base URL for your app */}
       <Routes>
-         <Route path='/' element={<Home />} />
-         <Route path='/about' element={<About />} />
-         <Route path='/service' element={<Service />} />
-         <Route path='/work' element={<Work />} />
-         <Route path='/contact' element={<Contact />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/service" element={<Service />} />
+        <Route path="/work" element={<Work />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   )
